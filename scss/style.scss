@@ -1,0 +1,16 @@
+* {
+    magrin: 0;
+}
+
+.name-form, .name-display h2 {
+    display: none;
+}
+
+.name-form.show, .name-display h2.show {
+    display: block;
+}
+
+.todo-list li.finished {
+    text-decoration: line-through;
+    color: #eee;
+}
